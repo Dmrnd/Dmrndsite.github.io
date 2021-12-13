@@ -1,0 +1,170 @@
+html {
+    font-size: 15px;
+    height: 100%;
+}
+body {
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.6; 
+    background:url(https://www.yuga.ru/media/f5/d5/049b35a6-8ac4-45ef-bad9-3f89917449be__twjr3yt.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    max-height: 100%;
+    max-width: 100%;
+    
+    
+}
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+}
+/*Header*/
+.header {
+    display: flex;
+
+}
+.name-page {
+    background-color: rgb(0, 0, 0, 0.4);
+    display: flex;
+    width: 100%;
+    align-items: center;
+    border-bottom: 1px solid white;
+  
+}
+.name-page img{
+    width: 50px;
+    height: 50px;
+}
+.cityname {
+    margin: 0;
+color: #fff;
+font-size: 2rem;
+font-weight: 700;
+}
+
+.header-nav-link {
+    margin-left: 1.5rem;
+    
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-decoration: none;
+    
+    transition: .2s color linear;   
+}
+
+.header-nav-link:hover {
+    color: #b2e3fd;
+}
+.header-nav-link:first-child{
+    margin-left: 86rem;
+}
+
+
+/*Main*/
+main{
+    min-height: 100%;
+    display: flex;
+}
+.pricing-table{
+    width: 200px;
+    text-align: center;
+    min-height: 100%;
+    padding: 30px;
+    background-color: rgba(2, 3, 2, 0.4);
+}
+
+.package-name{
+    margin-top: 5px;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    color: rgb(255, 255, 255);
+    display: none;
+}
+
+.price{
+    font-size: 2.5rem;
+    margin: 5px 0;
+    color: rgb(255, 255, 255);
+}
+.disclaimer,
+.features{
+    font-size: 1.2rem;
+    color: rgb(255, 255, 255);
+}
+
+.disclaimer{
+    display: none;
+}
+
+.features {
+    text-decoration: none;
+    list-style-type: none;
+    padding-left: 0;
+    margin-left: 0;
+    color: rgb(255, 255, 255);
+}
+
+.text {
+    background:url(https://catherineasquithgallery.com/uploads/posts/2021-02/1614368651_22-p-svetlo-serii-fon-dlya-fotoshopa-24.jpg);
+    font-size: 1.5rem;
+    color: rgb(0, 0, 0);
+    padding: 0 50px;
+}
+
+span {
+    font-size: 2rem;
+    
+}
+
+.img {
+    
+    padding-right: 15px;
+    width: 350px;
+    height: 250px;
+}
+
+.img:last-child{
+    padding-right: 0;
+}
+.map {
+    margin-bottom: 30px;
+}
+.news {
+    min-width: 200px;
+    font-size: 1.5rem;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgba(2, 3, 2, 0.4);
+}
+.newsread {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.newsread:hover {
+    text-decoration: underline;
+}
+
+.contact {
+color: rgb(0, 0, 0);
+text-decoration: none;
+}
+.icongmail {
+    height: 50px;
+    width: 50px;
+}
+.icon {
+    height: 50px;
+    width: 65px;
+}
+/*Footer*/
+.footer{
+    color: #fff; 
+    left: 0; bottom: 0; 
+    padding: 10px; 
+    width: 100%;
+    height:45px;
+    background-color: rgb(0, 0, 0, 0.4);
+    border-top: 1px solid white;
+}
